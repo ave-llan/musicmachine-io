@@ -1,0 +1,55 @@
+@import url(https://fonts.googleapis.com/css?family=PT+Sans|PT+Serif:400,700,400italic);
+
+body {
+  font-family: "PT Serif", serif;
+  font-size: 15px;
+  line-height: 1.3;
+  max-width: 800px;
+  margin: auto;
+  padding: 1em;
+}
+
+h1, h2, h3, h4 {
+  font-family: "PT Sans", sans-serif;
+}
+
+h1 {
+  font-size: 3em;
+  font-weight: 400;
+}
+
+ul {
+  padding:20;
+  list-style: none;
+}
+li {
+  margin-top: 0.3em;
+}
+li:before {
+    content:"· ";
+}
+
+/* text of note names on y-axis */
+.y-axis-text {
+  font-family: "PT Sans", sans-serif;
+  pointer-events: none;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+input {
+  font-family: "PT Sans", sans-serif;
+}
+
+#green a{
+  color: #2ca02c;
+}
+
+.cf-example-title {
+  text-align: right;
+  margin: 20px 0 0 0;
+}
