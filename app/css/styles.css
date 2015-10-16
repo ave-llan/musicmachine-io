@@ -50,6 +50,10 @@ input {
   font-family: "PT Sans", sans-serif;
 }
 
+a {
+  color: #3498db;
+}
+
 #green a{
   color: #2ca02c;
 }
