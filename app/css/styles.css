@@ -1,5 +1,10 @@
 @import url(https://fonts.googleapis.com/css?family=PT+Sans|PT+Serif:400,700,400italic);
 
+/* avoid landscape zoom-in on mobile */
+html {
+  -webkit-text-size-adjust: none;
+}
+
 body {
   font-family: "PT Serif", serif;
   font-size: 15px;
@@ -52,4 +57,18 @@ input {
 .cf-example-title {
   text-align: right;
   margin: 20px 0 0 0;
+}
+
+blockquote {
+  position: relative;
+}
+
+blockquote:before {
+   content: "“";
+   position: absolute;
+   left: -0.4em;
+}
+
+blockquote p:after {
+   content: "”";
 }
