@@ -11,9 +11,18 @@ body {
   font-family: "PT Serif", serif;
   font-size: 15px;
   line-height: 1.3;
-  max-width: 800px;
   margin: auto;
   padding: 1em;
+}
+
+.text-content {
+  max-width: 800px;
+  margin: auto;
+}
+
+.counterpoint {
+  max-width: 900px;
+  margin: auto;
 }
 
 h1, h2, h3, h4 {
@@ -95,4 +104,8 @@ blockquote:before {
 
 blockquote p:after {
    content: "”";
+}
+
+#full-screen-app {
+  max-width: 100%;
 }
