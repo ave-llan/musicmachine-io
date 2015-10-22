@@ -5,6 +5,7 @@
 /* avoid landscape zoom-in on mobile */
 html {
   -webkit-text-size-adjust: none;
+  height: 100%;
 }
 
 body {
@@ -13,6 +14,7 @@ body {
   line-height: 1.3;
   margin: auto;
   padding: 1em;
+  height: 100%;
 }
 
 .text-content {
@@ -108,4 +110,13 @@ blockquote p:after {
 
 #full-screen-app {
   max-width: 100%;
+}
+
+#page-footer {
+  font-size: 0.8em;
+  margin: 2em 0 2em 0;
+}
+
+#page-footer a{
+  text-decoration: none;
 }
