@@ -83,6 +83,7 @@ input {
 
 a {
   color: #3498db;
+  text-decoration: none;
 }
 
 #green a{
@@ -115,8 +116,4 @@ blockquote p:after {
 #page-footer {
   font-size: 0.8em;
   margin: 2em 0 2em 0;
-}
-
-#page-footer a{
-  text-decoration: none;
 }
